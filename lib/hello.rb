@@ -3,7 +3,7 @@ def hello_t(array)
   while i < array.length
     #if array[i].start_with?("T")
       yield array[i]
-  #end  #end for while
+    #end  #end for while
   i = i + 1
 end
   array
