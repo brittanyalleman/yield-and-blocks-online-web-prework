@@ -6,7 +6,7 @@ def hello_t(array)
     i = i + 1
   end
 
-  array   
+  array
   puts  "Hey! No block was given!"
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
@@ -15,4 +15,3 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
  end
 end
 end
-
