@@ -1,8 +1,7 @@
 def hello_t(array)
   i = 0
-
   while i < array.length
-    if name.start_with?("T")
+    if array[i].start_with?("T")
       yield [i]
     i = i + 1
   end  #end for while
