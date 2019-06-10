@@ -6,7 +6,7 @@ def hello_t(array)
       yield [i]
     i = i + 1
   end  #end for while
-
+end 
   array
    puts  "Hey! No block was given!"
  end #end for method
