@@ -9,3 +9,4 @@ end
   array
    puts  "Hey! No block was given!"
  end #end for method
+end
